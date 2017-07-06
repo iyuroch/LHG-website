@@ -1,0 +1,144 @@
+body {
+    background-image: url(background.png);
+}
+
+.container {
+  background-color: white;
+  min-height: 100vh;
+  position: relative;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+
+.navbar-nav > li > a {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.navbar-default {
+    background-color: white;
+}
+
+.navbar {
+    position: relative;
+    min-height: 100px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.nav > li.active {
+    color: black;
+    border-bottom: black solid 3px;
+    background-color: white;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav >
+.active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+  background-color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font: 20px arial, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar-brand {
+    float: left;
+    font-size: 18px;
+    line-height: 20px;
+    height: 100px;
+    padding: 10px 15px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav >
+.active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+  color: black
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.spinner {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+  z-index: 1;
+}
+
+.spinner > div {
+  display: inline-block;
+  background-color: #333;
+  height: 100%;
+  width: 6px;
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% {
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+
+.content {
+  margin-bottom: 60px;
+}
+
+.content-blurr {
+  opacity: 0.4;
+}
+
+.spinner-stop {
+  display: none
+}
+
+#googleMap {
+  height: 400px;
+  background-color: black;
+  margin-left: 10%;
+  margin-right: 10%;
+}
