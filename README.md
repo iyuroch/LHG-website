@@ -2,8 +2,7 @@
 
 Project use jquery, bootstrap and javascript
 
-Navigation use history API; Blogger Api for content fetching
-
+Navigation done with history API; Blogger Api for content fetching
 
 Copy repository in specified folder on your local computer
 
